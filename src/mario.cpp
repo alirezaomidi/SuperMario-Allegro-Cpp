@@ -1,5 +1,4 @@
 #include "mario.h"
-#include <iostream>
 
 void Mario::initMarioRects() {
     imageHeight = al_get_bitmap_height(image);
@@ -40,7 +39,6 @@ void Mario::unloadContect() {
 }
 
 void Mario::update(ALLEGRO_EVENT event, InputManager input) {
-    //std::cout << dir << std::endl;
     input.update();
     if (input.isKeyDown(ALLEGRO_KEY_UP) || input.isKeyDown(ALLEGRO_KEY_DOWN)
             || input.isKeyDown(ALLEGRO_KEY_LEFT) || input.isKeyDown(ALLEGRO_KEY_RIGHT)) {
