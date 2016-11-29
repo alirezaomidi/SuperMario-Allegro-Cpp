@@ -21,3 +21,7 @@ build/Mario-Allegro
 I remember it had no bugs as I was presenting it to my teacher but now, after 2 years, it has lots of bugs. Don't know why :D
 
 Anyway... Enjoy :)
+
+### License
+
+This project is licensed under [MIT](LICENSE) Public License.
